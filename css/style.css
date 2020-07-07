@@ -1,7 +1,34 @@
-header {
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 35px;
     padding-bottom: 35px;
+    border-bottom: 1px solid #D4D4D4;
+    padding-left: 34px;
+}
+.search-input{
+    background-image: url(../img/search-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left:32px;
+    border: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #A5A5A5;
+    opacity: 70%;
+}
+
+.search-link {
+    text-decoration: none;
+    color: #363636;
+    margin-right: 18px;
+    font-size: 18px;
+    line-height: 21px;
 }
