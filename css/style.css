@@ -36,25 +36,23 @@ body{
     height: 100%;
     cursor: pointer;
 }
-.sign-up {
+.sign-up{
     font-size: 18px;
     line-height: 21px;
     color: #5671F6;
     border:none;
     background:none;
-    padding-right:32px;
-    padding-left: 34px;
     height: 100%;
-    border-left: 1px solid #D4D4D4;
+    padding-left: 34px;
+    padding-right: 34px;
 }
 .login{
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
     border:none;
-    background:none;
+    background-color:#5671F6;
+    height: 100%;
     padding-right: 50px;
     padding-left: 50px;
-    font-size: 18px;
-    line-height: 21px;  
-    color: #FFFFFF;
-    background-color: #5671F6;
-    height: 100%;
 }
