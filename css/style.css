@@ -2,6 +2,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     border:none;
+    color: #363636;
 }
 .header {
     display: flex;
@@ -101,4 +102,45 @@ body{
 }
 .button-trailer-icon{
     margin-right: 14px;
+}
+.film-title{
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-size: 36px;
+    line-height: 42px;
+}
+.film-subtitle{
+    display:block;
+    color: #A5A5A5;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 32px;
+}
+.film-description{
+    font-size: 14px;
+    line-height: 150%;
+    color: #000000;
+    max-width: 514px;
+    margin-bottom: 50px;
+}
+.about-film{
+    display:flex;
+}
+.about-text{
+    display: block;
+    margin-bottom: 16px;
+}
+.film-text-bold{
+    display:inline-block;
+    width: 100px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+}
+.film-text-reg{
+    font-size: 16px;
+    line-height: 19px;
+}
+.left-side{
+    margin-right: 40px;
 }
